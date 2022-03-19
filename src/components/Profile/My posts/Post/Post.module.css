@@ -1,0 +1,26 @@
+.item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.message {
+    max-width: 500px;
+    margin-right: auto;
+}
+
+div span:hover {
+    color: darkred;
+    cursor: pointer;
+}

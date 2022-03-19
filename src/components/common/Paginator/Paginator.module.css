@@ -1,0 +1,31 @@
+.span {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fda172;
+    font-weight: 400;
+    border: 2px solid #282828;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: #282828;
+
+}
+
+.span:hover {
+    color: #fff;
+}
+
+.selectedPage {
+    font-weight: 700;
+    color: #282828;
+    background: #fda172;
+    border: 2px solid #282828;
+}
+
+.paginator {
+    border-radius: 5px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
