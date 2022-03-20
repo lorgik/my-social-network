@@ -1,8 +1,12 @@
 .nav {
     grid-area: n;
-    background-color: #fda172;
+    background-color: #3986ff;
     border-radius: 10px;
     padding: 15px;
+}
+
+a {
+    color: #ffffff!important;
 }
 
 li:not(last-child) {

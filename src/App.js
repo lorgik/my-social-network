@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {compose} from "redux";
 import {connect, Provider} from "react-redux";
-import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import {HashRouter, Route, withRouter} from "react-router-dom";
 import Preloader from "./components/common/preloader/Preloader";
 import Navbar from "./components/Navbar/Navbar";
 import UsersContainer from "./components/Users/UsersContainer";
@@ -66,11 +66,11 @@ const AppContainer = compose(
 
 const MainApp = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Provider store={store}>
                 <AppContainer />
             </Provider>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

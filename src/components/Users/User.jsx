@@ -5,7 +5,6 @@ import classes from "./Users.module.css";
 let avatar = 'https://sun9-20.userapi.com/sun9-86/s/v1/if1/JygeoxXgnUnZyoLLCmkqMUik_vLWURO7Vpdjv_rdMKiR07AtdZ39-6kT-CCry5TKae7FwrV0.jpg?size=200x200&quality=96&crop=0,0,600,600&ava=1';
 
 let User = ({user, followingInProgress, unfollow, follow}) => {
-    debugger
     return (
         <div key={user.id}>
             <div className={classes.user}>
